@@ -1,0 +1,50 @@
+<html>
+
+<head>
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="btns">
+      <button class="b1" onclick="myFunction1()"> stop watch</button>
+      <button class="b1" onclick="myFunction2()"> timer</button>
+    </div>
+    <div class="parent" id="parent1">
+      <h1 style="align-items: center;">STOP WATCH</h1>
+      <div class="row1">
+        <span id="hour">00</span> :
+        <span id="min">00</span> :
+        <span id="sec">00</span> :
+        <span id="milisec">00</span>
+      </div>
+
+
+      <div class="row2">
+        <button onclick="startStop()" id="start" class="s">Start</button>
+        <button onclick="resett()" class="r">Reset</button></div>
+    </div>
+
+    <div class="parent2" id="parentt2" style="display: none;">
+      <div class="con2">
+        <h1>TIMER</h1>
+        <div class="row1">
+          <span id="hourr">00</span> :
+          <span id="minn">00</span> :
+          <span id="secc">00</span> :
+          <span id="milisecc">00</span>
+        </div>
+
+        <div class="row2">
+          <button onclick="" id="start" class="s">Start</button>
+          <button onclick="" class="r">Reset</button></div>
+      </div>
+    </div>
+
+
+
+    <script src="index.js"></script>
+  </div>
+</body>
+
+</html>
